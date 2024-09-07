@@ -20,22 +20,22 @@ The Product Dashboard is a React application that fetches, displays, filters, an
 ## Technologies Used
 
 - **React.js**:
-    -A JavaScript library for building user interfaces, used to create the components and manage the state of the application.
+    - A JavaScript library for building user interfaces, used to create the components and manage the state of the application.
 
-**Redux Toolkit**:
-    -A library for managing application state, which simplifies working with Redux and provides powerful tools for state management.
+- **Redux Toolkit**:
+    - A library for managing application state, which simplifies working with Redux and provides powerful tools for state management.
 
-**Axios**:
-    -A promise-based HTTP client for making API requests to fetch product data.
+- **Axios**:
+    - A promise-based HTTP client for making API requests to fetch product data.
 
-**React Router**:
-    -A library for handling routing in React applications, used to manage navigation and rendering of different views or pages.
+- **React Router**:
+    - A library for handling routing in React applications, used to manage navigation and rendering of different views or pages.
 
-**Jest and React Testing Library**:
-    -Tools for writing and running tests to ensure the application's components and functionality work as expected.
+- **Jest and React Testing Library**:
+    - Tools for writing and running tests to ensure the application's components and functionality work as expected.
 
-**CSS**:
--Used for styling the components and layout of the application. You might use plain CSS, but CSS-in-JS libraries or pre-processors like Sass could also be considered based on the project's needs.
+- **CSS**:
+  - Used for styling the components and layout of the application. You might use plain CSS, but CSS-in-JS libraries or pre-processors like Sass could also be considered based on the project's needs.
 
 ## Getting Started
 
