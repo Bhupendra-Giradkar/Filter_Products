@@ -1,0 +1,96 @@
+/* App.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Search Bar */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Dropdowns */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Product List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+li:hover {
+  background: #e1e1e1;
+}
+
+li strong {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+li span {
+  margin-bottom: 5px;
+}
+
+/* Inline Boxes for Search Results */
+.product-item {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: calc(33% - 20px);
+  vertical-align: top;
+}
+
+.product-item:hover {
+  background: #f9f9f9;
+}
+
+/* Loading and Error States */
+.loading, .error {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #ff4d4d; /* Red color for errors */
+}
