@@ -43,10 +43,15 @@ The Product Dashboard is a React application that fetches, displays, filters, an
 
 Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 
-### Installation
+### Installation and Running code
 
 1. **Clone the repository:**
 
    ```bash
    git clone [https://github.com/your-username/product-dashboard.git](https://github.com/Bhupendra-Giradkar/Filter_Products)
    cd product-dashboard
+
+2. **Navigate to the root directory of the code.**
+3. **Open command terminal.**
+4. **To run the code run the command "npm start" in your terminal.**
+5. **You can see the output by opening following link <a href="http://localhost:3000/">http://localhost:3000/</a> on there browser..**
